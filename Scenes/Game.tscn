@@ -1,10 +1,13 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Scenes/Ground.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Scenes/Spawner.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/entities/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/managers/Ground.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/managers/Spawner.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/parallax_bg/Background.tscn" type="PackedScene" id=4]
 
 [node name="Game" type="Node2D"]
+
+[node name="Background" parent="." instance=ExtResource( 4 )]
 
 [node name="Ground" parent="." instance=ExtResource( 2 )]
 
