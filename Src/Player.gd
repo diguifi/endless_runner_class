@@ -14,7 +14,7 @@ var on_floor = false
 var state = states_enum.RUN
 
 func _ready():
-	pass # Replace with function body.
+	Signals.connect("kill_player", self, "_player_hit")
 
 func _physics_process(delta):
 	apply_state()
@@ -47,3 +47,7 @@ func apply_state():
 		states_enum.JUMPIDLE:
 			if on_floor:
 				state = states_enum.RUN
+				
+				
+func _player_hit():
+	change_state(states_enum.DEAD)

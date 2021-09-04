@@ -10,7 +10,6 @@ config_version=4
 
 _global_script_classes=[  ]
 _global_script_class_icons={
-
 }
 
 [application]
@@ -18,6 +17,10 @@ _global_script_class_icons={
 config/name="test_runner_aula"
 run/main_scene="res://Scenes/Game.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Signals="*res://Src/Signals.gd"
 
 [display]
 

@@ -3,12 +3,14 @@ extends Node2D
 onready var item1 = $Sprite
 onready var item2 = $Sprite2
 export var scroll_speed = 2
+var player_dead = false
 
 func _ready():
-	print(get_viewport().size.x)
+	Signals.connect("kill_player", self, "_kill_player")
 
 func _process(_delta):
-	move_bg()
+	if !player_dead:
+		move_bg()
 
 func move_bg():
 	item1.position.x -= scroll_speed
@@ -17,3 +19,6 @@ func move_bg():
 	item2.position.x -= scroll_speed
 	if (item2.position.x <= -get_viewport().size.x):
 		item2.position.x = get_viewport().size.x
+		
+func _kill_player():
+	player_dead = true

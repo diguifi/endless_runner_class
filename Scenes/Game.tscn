@@ -13,12 +13,9 @@ position = Vector2( 80, 170 )
 
 [node name="Obstacle" parent="." instance=ExtResource( 3 )]
 position = Vector2( 579, 192 )
-fafa = 1
 
 [node name="Obstacle2" parent="." instance=ExtResource( 3 )]
 position = Vector2( 624, 192 )
-fafa = 2
 
 [node name="Obstacle3" parent="." instance=ExtResource( 3 )]
 position = Vector2( 668, 192 )
-fafa = 3
