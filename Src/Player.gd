@@ -51,3 +51,8 @@ func apply_state():
 				
 func _player_hit():
 	change_state(states_enum.DEAD)
+
+
+func _on_AnimatedSprite_animation_finished():
+	if animation.animation == "die":
+		Signals.emit_signal("game_over")
