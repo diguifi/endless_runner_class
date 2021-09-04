@@ -2,20 +2,14 @@
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Ground.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Scenes/Obstacle.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/Spawner.tscn" type="PackedScene" id=3]
 
 [node name="Game" type="Node2D"]
 
 [node name="Ground" parent="." instance=ExtResource( 2 )]
 
+[node name="Spawner" parent="." instance=ExtResource( 3 )]
+position = Vector2( 531.367, 190.858 )
+
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 80, 170 )
-
-[node name="Obstacle" parent="." instance=ExtResource( 3 )]
-position = Vector2( 579, 192 )
-
-[node name="Obstacle2" parent="." instance=ExtResource( 3 )]
-position = Vector2( 624, 192 )
-
-[node name="Obstacle3" parent="." instance=ExtResource( 3 )]
-position = Vector2( 668, 192 )

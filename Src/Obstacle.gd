@@ -11,8 +11,8 @@ func _physics_process(_delta):
 		_move()
 
 func _move():
-	position.x -= scroll_speed
-	if position.x < -24:
+	global_position.x -= scroll_speed
+	if global_position.x < -24:
 		queue_free()
 
 func _on_Damage_body_entered(body):
