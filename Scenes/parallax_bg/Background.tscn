@@ -8,9 +8,12 @@
 [node name="Background" type="Node2D"]
 
 [node name="Skies" parent="." instance=ExtResource( 1 )]
+scroll_speed = 0.1
 
 [node name="MountainsFar" parent="." instance=ExtResource( 3 )]
+scroll_speed = 0.2
 
 [node name="MountainsNear" parent="." instance=ExtResource( 4 )]
+scroll_speed = 0.4
 
 [node name="Grass" parent="." instance=ExtResource( 2 )]

@@ -8,10 +8,11 @@ script = ExtResource( 1 )
 scroll_speed = 0.8
 
 [node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 0, 12 )
 texture = ExtResource( 2 )
 centered = false
 
 [node name="Sprite2" type="Sprite" parent="."]
-position = Vector2( 480, 0 )
+position = Vector2( 480, 12 )
 texture = ExtResource( 2 )
 centered = false
