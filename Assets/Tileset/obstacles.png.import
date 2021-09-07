@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/obstacles.png-51625a7c3d5072d3f08753e21d5b124c.stex"
+path="res://.import/obstacles.png-9058f08b07e35656937ae1319c9ec19d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tileset/obstacles.png"
-dest_files=[ "res://.import/obstacles.png-51625a7c3d5072d3f08753e21d5b124c.stex" ]
+source_file="res://assets/Tileset/obstacles.png"
+dest_files=[ "res://.import/obstacles.png-9058f08b07e35656937ae1319c9ec19d.stex" ]
 
 [params]
 

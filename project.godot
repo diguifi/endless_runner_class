@@ -15,12 +15,12 @@ _global_script_class_icons={
 [application]
 
 config/name="test_runner_aula"
-run/main_scene="res://Scenes/Game.tscn"
+run/main_scene="res://scenes/Game.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
-Signals="*res://Src/Signals.gd"
+Signals="*res://src/Signals.gd"
 
 [display]
 

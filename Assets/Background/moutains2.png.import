@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/moutains2.png-84f40a2a1d084edb2313eaf53f89a659.stex"
+path="res://.import/moutains2.png-7f2e819f5cb5f4d4cfaacb11502fcdda.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Background/moutains2.png"
-dest_files=[ "res://.import/moutains2.png-84f40a2a1d084edb2313eaf53f89a659.stex" ]
+source_file="res://assets/Background/moutains2.png"
+dest_files=[ "res://.import/moutains2.png-7f2e819f5cb5f4d4cfaacb11502fcdda.stex" ]
 
 [params]
 
